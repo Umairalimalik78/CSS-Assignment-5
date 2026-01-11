@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f8f9;
+}
+
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(196, 193, 193);
+    box-shadow: 0px -2px 30px gray;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.navbar_wrapper{
+    width: 1100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#logo{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002345;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#logo_txt{
+    font-weight: 800;
+}
+
+.tabs{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.tabs ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.tabs a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
+
+.tabs a:hover{
+    color: #002345;
+}
+
+.btn{
+    border: none;
+    background-color: #002345;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #24496d;
+}
+
+#about{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container{
+    width: 950px;
+    text-align: center;
+    margin: 120px 0px;
+}
+
+.about_name{
+    color: #057df5;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about_txt{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 60px;
+}
+
+.about_para{
+    font-size: 18px;
+    width: fit-content;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    font-weight: bold;
+    color: gray;
+}
+
+#about button{
+    font-size: 16px;
+    padding: 20px 60px;
+}
+
+#service{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service_headings{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section_name{
+    color: #057df5;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.section_headline{
+    font-size: 36px;
+}
+
+.section_para{
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 340px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: 1px solid #d8dfe4;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #e5f2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > h4{
+    font-size: 20px;
+}
+
+.card > p{
+    font-size: 16px;
+    color: gray;
+}
+
+.card_learMore{
+    font-size: 16px;
+    color: #057df5;
+}
+
+footer{
+    background-color: #002345;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_wrapper{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    border-bottom: 1px solid #254360;
+    color: white;
+}
+
+.footer_wrapper h4{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer #logo{
+    background-color: #e5f2f3;
+    font-weight: bold;
+    color: #002345;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+footer #logo_txt{
+    font-size: 40px;
+}
+
+.footer_column li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+}
